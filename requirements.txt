@@ -7,3 +7,6 @@ urllib3==1.26.15
 yt-dlp==2023.3.4
 opuslib==3.0.1
 ffmpeg==1.4
+selenium==4.10.0
+cairosvg==2.7.0
+pillow==9.5.0

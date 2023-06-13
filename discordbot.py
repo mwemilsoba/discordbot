@@ -143,7 +143,6 @@ async def music_stop(message: discord.Message):
 
 @client.event
 async def on_ready():
-
     # discord.Status.online에서 online을 dnd로 바꾸면 "다른 용무 중", idle로 바꾸면 "자리 비움"
     await client.change_presence(status=discord.Status.online, activity=discord.Game("뭬밀소바봇 가동중"))
     print(client.user.name) # 봇의 이름을 출력
